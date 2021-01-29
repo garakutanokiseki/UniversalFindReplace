@@ -1,0 +1,16 @@
+﻿<Window x:Class="FindReplaceTestSDI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:FR="clr-namespace:FindReplace;assembly=FindReplace"
+        xmlns:my="clr-namespace:FindReplaceTestSDI"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.InputBindings>
+        <KeyBinding Key="F3" Modifiers="Shift" Command="Search" CommandParameter="something" />
+    </Window.InputBindings>
+    <Grid>
+        <WindowsFormsHost>
+            <wf:RichTextBox x:Name="MyTextEditor" HideSelection="False" />
+        </WindowsFormsHost>
+    </Grid>
+</Window>

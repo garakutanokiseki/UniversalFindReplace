@@ -122,7 +122,7 @@ namespace FindReplace
        }
     }
 
-    class WFTextBoxAdapter : IEditor
+    public class WFTextBoxAdapter : IEditor
     {
         System.Windows.Forms.TextBoxBase tb;
         public WFTextBoxAdapter(System.Windows.Forms.TextBoxBase ttb)
