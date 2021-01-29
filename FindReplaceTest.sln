@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindReplaceTest", "FindReplaceTest\FindReplaceTest.csproj", "{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindReplace", "FindReplace\FindReplace.csproj", "{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF1BA857-E2BB-4241-8351-D4EC43E47F44}"
+	ProjectSection(SolutionItems) = preProject
+		FindReplaceTest.vsmdi = FindReplaceTest.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Debug|x86.ActiveCfg = Debug|x86
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Debug|x86.Build.0 = Debug|x86
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Release|Any CPU.ActiveCfg = Release|x86
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Release|x86.ActiveCfg = Release|x86
+		{4C64F7EC-CAB4-49BB-8FB9-AB936D027086}.Release|x86.Build.0 = Release|x86
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F6237B7D-9A3B-4F55-961B-72035B0DEA4D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3E7C899-F32E-44DA-AE90-B32094FA9AF6}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FindReplaceTest.vsmdi
+	EndGlobalSection
+EndGlobal
